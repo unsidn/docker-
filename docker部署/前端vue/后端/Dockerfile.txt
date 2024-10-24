@@ -1,8 +1,0 @@
-From openjdk: xxx
-#docker官网中查找到自己项目所对应的jdk镜像
-
-COPY target/name.jar app.jar
-#name.jar为项目打包生成的jar文件
-
-ENTRYPOINT ["java", "-jar", "/app.jar"]
-#指定容器启动时执行的命令
